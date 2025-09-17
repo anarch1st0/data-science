@@ -1,6 +1,23 @@
-# Data Science Portfolio
+# Data Science Portfolio 🚀
 
-This repository contains a comprehensive collection of data science assignments and projects, showcasing various techniques in data analysis, visualization, and machine learning.
+Crafted collection of data science projects covering analysis, modeling, and interactive dashboards — cleanly organized and easy to explore.
+
+![Repo Size](https://img.shields.io/github/repo-size/anarch1st0/data-science?color=0ea5e9)
+![Last Commit](https://img.shields.io/github/last-commit/anarch1st0/data-science?color=22c55e)
+![Issues](https://img.shields.io/github/issues/anarch1st0/data-science?color=f59e0b)
+![License](https://img.shields.io/badge/license-Private-lightgray)
+
+— jump to — [Overview](#overview) • [Projects](#projects) • [Screenshots](#screenshots) • [Quickstart](#quickstart) • [Tech Stack](#tech-stack)
+
+---
+
+## Overview
+
+This repository contains a curated set of assignments and mini-projects demonstrating:
+- Feature engineering and statistical exploration
+- Regression modeling with regularization and pipelines
+- Plotly/Dash interactive visualizations
+- Clean project structure and reproducible workflows
 
 ## Repository Structure
 
@@ -17,55 +34,60 @@ data-science/
 └── README.md            # This file
 ```
 
-## Assignments Overview
+## Projects
 
-### 1. House Sales Analysis (King County, USA)
-**File:** `assignments/house_sales_analysis/House_Sales_in_King_Count_USA.ipynb`
+Each project includes a focused README and runnable notebook(s).
 
-A comprehensive data analysis and machine learning project analyzing house sales in King County. This assignment covers:
-- **Questions 1-10:** Complete peer-review assignment with code and analysis
-- **Data Exploration:** Statistical analysis, correlations, and visualizations
-- **Machine Learning Models:** Linear regression, Ridge regression, polynomial features
-- **Model Evaluation:** R² scores, cross-validation, train/test splits
-- **Visualizations:** Scatter plots, box plots, regression plots
+### House Sales Analysis (King County, USA)
+Path: `assignments/house_sales_analysis/House_Sales_in_King_Count_USA.ipynb`
 
-**Key Results:**
-- Single feature R² scores: sqft_living (0.493), grade (0.467)
-- Multiple features R² (11 features): 0.658
-- Pipeline with polynomial features: Advanced model evaluation
-- Ridge regression with regularization for overfitting prevention
+- Predicting home prices using linear and ridge regression with polynomial features
+- EDA, feature importance, correlation heatmaps, and model evaluation (R²)
+- Pipeline-based workflow with train/test splits
 
-### 2. Automobile Sales Visualization
-**File:** `assignments/automobile_sales_visualization/Automobile_Sales_Data_Visualization.ipynb`
+Highlights:
+- R² (single feature `sqft_living`): ~0.49
+- R² (multiple features, 11): ~0.66
+- Regularized models to reduce overfitting
 
-Interactive dashboard and visualization project for automobile sales data:
-- **Part 1:** Plotly visualizations (line charts, bar charts, pie charts, scatter plots)
-- **Part 2:** Interactive Dash web application with dropdown menus and dynamic plotting
-- **Dashboard Features:** Year-wise statistics, recession period analysis, sales trends
+—
 
-### 3. SpaceX Data Analysis
-**File:** `assignments/spacex_data_analysis/spacex_data_wrangling_completed.ipynb`
+### Automobile Sales Visualization
+Path: `assignments/automobile_sales_visualization/Automobile_Sales_Data_Visualization.ipynb`
 
-Data wrangling and preprocessing project for SpaceX launch data:
-- Data cleaning and transformation
-- Feature engineering and analysis
-- Exploratory data analysis with visualizations
+- Plotly visualizations and a Dash app for exploring sales trends
+- Year-wise insights, recession analysis, and category breakdowns
+- Interactive controls (dropdowns) with dynamic callbacks
 
-## Generated Outputs
+—
 
-### Screenshots
-All assignment screenshots are organized in `outputs/screenshots/`:
-- `house_sales/`: 10 question screenshots for peer review submission
-- `automobile_sales/`: Dashboard and visualization screenshots
+### SpaceX Data Analysis
+Path: `assignments/spacex_data_analysis/spacex_data_wrangling_completed.ipynb`
 
-## Technical Stack
+- Practical data wrangling and EDA on SpaceX launch data
+- Feature engineering and pattern discovery
 
-### Libraries Used
-- **Data Analysis:** pandas, numpy
-- **Machine Learning:** scikit-learn (LinearRegression, Ridge, PolynomialFeatures, Pipeline)
-- **Visualization:** matplotlib, seaborn, plotly
-- **Web Dashboard:** dash, plotly.graph_objects
-- **Development:** jupyter notebook, python 3.13
+## Screenshots
+
+A peek at some outputs (more in `outputs/screenshots/`):
+
+<div align="center">
+
+<img src="outputs/screenshots/house_sales/Question_7_Multiple_Features.png" alt="Multiple Features R2" width="45%" />
+<img src="outputs/screenshots/automobile_sales/Line_plot_1.png" alt="Automobile Sales Line Plot" width="45%" />
+
+<img src="outputs/screenshots/house_sales/Question_9_Ridge_Regression.png" alt="Ridge Regression" width="45%" />
+<img src="outputs/screenshots/automobile_sales/Pie_1.png" alt="Automobile Sales Pie" width="45%" />
+
+</div>
+
+## Tech Stack
+
+- Data: pandas, numpy
+- ML: scikit-learn (LinearRegression, Ridge, PolynomialFeatures, Pipeline)
+- Viz: matplotlib, seaborn, plotly
+- App: dash, plotly.graph_objects
+- Dev: Jupyter, Python 3.13
 
 ### Environment Setup
 ```bash
@@ -77,23 +99,16 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install pandas numpy scikit-learn matplotlib seaborn plotly dash jupyter
 ```
 
-## How to Run
+## Quickstart
 
-### Individual Assignments
-1. Navigate to the assignment folder
-2. Open the Jupyter notebook
-3. Run all cells sequentially
+Run any project notebook:
 
-### House Sales Analysis
 ```bash
-cd assignments/house_sales_analysis
-jupyter notebook House_Sales_in_King_Count_USA.ipynb
+cd assignments/house_sales_analysis && jupyter notebook House_Sales_in_King_Count_USA.ipynb
 ```
 
-### Automobile Sales Dashboard
 ```bash
-cd assignments/automobile_sales_visualization
-jupyter notebook Automobile_Sales_Data_Visualization.ipynb
+cd assignments/automobile_sales_visualization && jupyter notebook Automobile_Sales_Data_Visualization.ipynb
 ```
 
 ## Dataset Information
@@ -104,7 +119,7 @@ jupyter notebook Automobile_Sales_Data_Visualization.ipynb
 - **Features:** 22 columns including price, bedrooms, bathrooms, sqft_living, etc.
 - **Source:** King County public records
 
-## Assignment Completion Status
+## Status
 
 ✅ **House Sales Analysis:** Complete (all 10 questions + additional analysis)
 - All code cells executed successfully
@@ -120,7 +135,7 @@ jupyter notebook Automobile_Sales_Data_Visualization.ipynb
 ✅ **SpaceX Data Analysis:** Complete
 - Data wrangling and preprocessing finished
 
-## Key Learning Outcomes
+## What You'll Learn
 
 1. **Data Analysis:** Statistical analysis, correlation studies, feature selection
 2. **Machine Learning:** Linear regression, regularization, model evaluation
@@ -128,7 +143,7 @@ jupyter notebook Automobile_Sales_Data_Visualization.ipynb
 4. **Dashboard Development:** Interactive web applications with Dash
 5. **Code Organization:** Jupyter notebook best practices and documentation
 
-## Screenshots and Submission
+## Notes
 
 All assignment screenshots are available in `outputs/screenshots/` for:
 - Peer review submissions
