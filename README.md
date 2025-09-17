@@ -74,10 +74,11 @@ A peek at some outputs (more in `outputs/screenshots/`):
 <div align="center">
 
 <img src="outputs/screenshots/house_sales/Question_7_Multiple_Features.png" alt="Multiple Features R2" width="45%" />
-<img src="outputs/screenshots/automobile_sales/Line_plot_1.png" alt="Automobile Sales Line Plot" width="45%" />
+<img src="outputs/screenshots/automobile_sales/Pie_1.png" alt="Automobile Sales Pie" width="40%" />
 
-<img src="outputs/screenshots/house_sales/Question_9_Ridge_Regression.png" alt="Ridge Regression" width="45%" />
-<img src="outputs/screenshots/automobile_sales/Pie_1.png" alt="Automobile Sales Pie" width="45%" />
+
+
+
 
 </div>
 
